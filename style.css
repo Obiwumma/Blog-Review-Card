@@ -4,11 +4,19 @@ body{
   align-items: center;
   min-height: 100vh;
   margin: 0;
+  background-color: #eac360;
 }
-
+img{
+  width: 250px;
+}
 .main{
+  margin-top: 20px;
   width: 300px;
   background-color: lightblue;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
