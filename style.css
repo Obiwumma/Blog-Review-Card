@@ -7,16 +7,28 @@ body{
   background-color: #eac360;
 }
 img{
-  width: 250px;
+  width: inherit;
+  border-radius: 10px;
 }
 .main{
   margin-top: 20px;
   width: 300px;
-  background-color: lightblue;
+  background-color: #f0eee3;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px;
+}
+
+.writeup{
+  width: 270px;
+  background-color: #f0eee3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
 }
